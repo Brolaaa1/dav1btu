@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="205dp"
+        android:layout_height="187dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/img" />
+
+
+    <TextView
+        android:id="@+id/textViewNumber"
+        android:layout_width="358dp"
+        android:layout_height="66dp"
+        android:layout_margin="40dp"
+        android:gravity="center_horizontal"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonClick"
+        android:layout_width="159dp"
+        android:layout_height="87dp"
+        android:layout_gravity="center_horizontal"
+        android:text="click" />
+
+</LinearLayout>
